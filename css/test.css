@@ -1,19 +1,27 @@
-.comp--test {
+.comp--componentName {
   background: #fff;
 
-  .elem--user {
+  .elem--elementName {
     line-height: 24px;
 
-    &.is--famale {
+    &.is--roleNameA {
       background: red;
     }
 
-    &.is--blue {
+    &.is--roleNameB {
       background: blue;
     }
 
-    &.has--disabled {
+    &.has--stateName {
       cursor: not-allowed;
     }
+  }
+}
+
+.sel--componentName-elementName {
+  line-height: 24px;
+
+  &.has--stateName {
+    cursor: not-allowed;
   }
 }
