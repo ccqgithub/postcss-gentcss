@@ -1,0 +1,19 @@
+.comp--test {
+  background: #fff;
+
+  .elem--user {
+    line-height: 24px;
+
+    &.is--famale {
+      background: red;
+    }
+
+    &.is--blue {
+      background: blue;
+    }
+
+    &.has--disabled {
+      cursor: not-allowed;
+    }
+  }
+}
